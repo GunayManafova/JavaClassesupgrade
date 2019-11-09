@@ -1,0 +1,35 @@
+package Tuna;
+
+import java.util.Arrays;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+	
+		// TODO Auto-generated method stub
+		//swaping
+int x=10; 
+int y=5;
+x=x+y;//10+5=15
+y=x-y;//15-5=10;
+x=x-y;//15-10=5;
+System.out.println("x="+x);
+System.out.println("y="+y);
+//swaping Strings
+String str1="Hello";
+String str2="Welcome";
+str1=str1+str2;//HelloWelcome
+str2=str1.substring(0,str1.length()- str2.length());//Hello
+str1=str1.substring(str2.length());//Welcome
+System.out.println("str1= "+str1);
+System.out.println(str2);
+System.out.println("--------------");
+int [] array= {100, -90, 8787, 898, 0, 1};
+Arrays.sort(array);
+int min=array[0];
+int max=array[array.length-1];
+System.out.println(min);
+System.out.println(max);
+	}
+
+}

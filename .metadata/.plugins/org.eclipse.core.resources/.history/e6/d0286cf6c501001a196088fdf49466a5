@@ -1,0 +1,12 @@
+package com.class15;
+
+public class StringMoreExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Syntax Technologies";
+char letter=str.charAt(5);
+System.out.println(letter);
+	}
+
+}

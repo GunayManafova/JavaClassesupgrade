@@ -1,0 +1,28 @@
+package com.class13;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scanner=new Scanner(System.in);
+System.out.println("Enter your class day: ");
+
+String day=scanner.nextLine();
+String day1=day.toLowerCase();
+if(day.trim().toLowerCase().equals("Saturday")) {
+	System.out.println("Saturday is your Java class");
+}else if(day.toLowerCase().equals("Sunday")) {
+		System.out.println("Sunday is your GIT Class");
+}else if(day.trim().toUpperCase().equals("Tuesday")) {
+	System.out.println("Tuesday is your SDLC class");
+}else if(day.trim().toLowerCase().equals("Thursday")) {
+	System.out.println("Thursday is your Manula Testing class");	
+	}else {
+		System.err.println("Envalid Entry!!Please enter the valid class day");
+	}
+scanner.close();
+
+}
+}

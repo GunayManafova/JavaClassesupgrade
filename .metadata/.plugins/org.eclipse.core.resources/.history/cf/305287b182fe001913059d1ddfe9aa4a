@@ -1,0 +1,46 @@
+package com.class14;
+
+public class InterviewQuestions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String name=" Today Java class";
+String name1="String";
+for(int i=name.length()-1;i>=0;i--) {
+	System.out.print(name.charAt(i));
+	
+}
+System.out.println("----------");
+int [] array= {12, 13, 14, 35,17};
+int max=0; 
+int min=50;
+for(int i=0; i<array.length;i++) {
+	if(array[i]<min) {
+		min=array[i];
+	}
+	
+}
+System.out.println(min);
+for(int i=0; i<array.length;i++) {
+	if(array[i]>max) {
+		max=array[i];
+	}
+}
+System.out.println(max);
+int x=100; 
+int y=20;
+x=x+y;//30
+y=x-y;//20
+x=x-y;//30-20=10
+System.out.println(x);//10
+System.out.println(y);//20
+String str="Hello";
+String str1="Bye";
+String sentence="This is a Java class";
+System.out.println(sentence.substring(5, 10));
+System.out.println(str1.length());
+
+
+	}
+
+}

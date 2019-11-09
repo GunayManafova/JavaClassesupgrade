@@ -1,0 +1,14 @@
+package com.class6;
+
+public class Char {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String longStr=	"I am very happy today";
+	char [] charArray=longStr.toCharArray();
+		
+		
+		
+		
+}
+}

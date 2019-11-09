@@ -1,0 +1,26 @@
+package Tuna;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+	
+		// TODO Auto-generated method stub
+		//swaping
+int x=10; 
+int y=5;
+x=x+y;
+y=x-y;
+x=x-y;
+System.out.println("x="+x);
+System.out.println("y="+y);
+//swaping Strings
+String str1="Hello";
+String str2="Welcome";
+str1=str1+str2;//HelloWelcome
+str2=str1.substring(0,str1.length()-str2.length());//HelloWelcome-Welcome=Hello
+str1=str1.substring(str2.length());
+System.out.println("str1= "+str1);
+System.out.println(str2);
+	}
+
+}

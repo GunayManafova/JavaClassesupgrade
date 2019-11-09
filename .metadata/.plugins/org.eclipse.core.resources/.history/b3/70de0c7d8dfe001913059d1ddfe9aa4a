@@ -1,0 +1,73 @@
+package com.class14;
+
+public class InterviewQuestions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//reversing a string
+String name=" Today Java class";
+for(int i=name.length()-1;i>=0;i--) {
+	System.out.print(name.charAt(i));
+}
+
+	
+	
+
+System.out.println("----------");
+//finding max and minimum
+int [] array= {12, 13, 14, 35,17};
+int max=0; 
+int min=50;
+for(int i=0; i<array.length;i++) {
+	if(array[i]<min) {
+		min=array[i];
+	}
+	
+}
+System.out.println(min);
+for(int i=0; i<array.length;i++) {
+	if(array[i]>max) {
+		max=array[i];
+	}
+}
+System.out.println(max);
+//finding second largest number in an array
+int [] num= {1, 5, 8, 9, 25, 25};
+int n=num.length;
+int highest=Integer.MIN_VALUE;
+int secondHighest=Integer.MIN_VALUE;
+for(int i=0; i<n;i++) {
+	if(num[i]>highest) {
+		secondHighest=highest;
+		highest=num[i];
+	}
+	if(num[i]<highest && num[i]>secondHighest) {
+		secondHighest=num[i];
+	}
+}
+System.out.println(secondHighest);
+//swaping two numbers 
+int x=10; 
+int y=20;
+x=x+y;//30
+y=x-y;//20
+x=x-y;//30-20=10
+System.out.println(x);//10
+System.out.println(y);//20
+//swaping two strings
+String a="Hello";
+String b="Bye";
+a=a+b;
+b=(a.substring(0,a.length()-b.length()));
+a=a.substring(b.length());
+System.out.println(b);
+System.out.println(a);
+System.out.println("--------------");
+String sentence="This is a Java class";
+System.out.println(sentence.substring(5, 10));
+System.out.println(sentence.length());
+
+
+	}
+
+}

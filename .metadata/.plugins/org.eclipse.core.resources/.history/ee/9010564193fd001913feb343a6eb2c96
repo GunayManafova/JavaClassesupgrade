@@ -1,0 +1,11 @@
+package com.class13;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String day="Sunday";
+System.out.println(day.charAt(5) +" "+day.charAt(4) +" "+day.charAt(3));
+	}
+
+}

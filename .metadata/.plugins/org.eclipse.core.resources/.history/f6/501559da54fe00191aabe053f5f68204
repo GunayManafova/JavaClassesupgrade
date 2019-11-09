@@ -1,0 +1,23 @@
+package com.class14;
+
+public class StringMethodsRecap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Syntax Technologies";
+System.out.println(str.replace('y','i'));
+System.out.println("****************");
+System.out.println(str.replace("your", "My"));
+System.out.println("*********************");
+String str2="Video provides a powefful wat to help you prove your point";
+System.out.println(str2.replaceAll("way(.*)",""));
+String str3="23456Hell3049o";
+System.out.println(str3.replaceAll("[^A-z]", ""));
+System.out.println("*******************");
+System.out.println(str2.replaceFirst(" ", ""));
+String str1="Video provides a powerful way  to help"+"Code for the video you want to add";
+System.out.println(str1.toLowerCase().replace("Video", "Audio"));
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.class13;
+
+public class AllStringMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String str1="Hello";
+String str2=new String("Hello");
+String city="Fairfax";
+System.out.println(city.length());
+System.out.println(city.isEmpty());
+int [] a= {12, 32, 55, 77};
+System.out.println(a.length);
+	}
+
+}

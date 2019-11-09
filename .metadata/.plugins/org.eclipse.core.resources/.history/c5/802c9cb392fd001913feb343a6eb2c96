@@ -1,0 +1,15 @@
+package com.class13;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Sunday";
+String reverse="";
+for(int i=str.length();i>0;i--) {
+	reverse+=str.charAt(i);
+}
+System.out.println(reverse);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.class14;
+
+public class InterviewQuestions5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//program to check if a number is prime or not
+		int num=30;
+		boolean value=false;
+		for(int i=2;i<=num/2;++i) {
+			if(num%i==0) {
+				value=true;
+				break;
+			}
+		}
+		if (!value) {
+			System.out.println(num+" is a prime number.");
+		}else {
+			System.out.println(num+" is not  a prime number. ");
+		}
+	}
+
+}

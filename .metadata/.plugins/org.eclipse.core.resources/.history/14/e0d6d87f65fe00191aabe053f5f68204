@@ -1,0 +1,16 @@
+package com.class14;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Today is a Java class";
+System.out.println(str.replaceAll("\\s", ""));
+System.out.println("-------------");
+String str1="12788&%$$%&&&6Hel95456lo";
+System.out.println(str1.replaceAll("[a-zA-Z0-9]",""));
+String str2=str1;
+System.out.println(str1.length());
+	}
+
+}

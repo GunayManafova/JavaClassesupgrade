@@ -1,0 +1,18 @@
+package com.class16;
+
+public class IQ5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//how to reverse the String
+		String given="Welcome to Java class";
+		//to reverse String
+		//split();
+		//Step1:split-array of String
+		//Step2-use for loop and decrement to print values
+		for(int i=given.length()-1;i>=0;i--) {
+			System.out.print(given.charAt(i));
+	}
+
+}
+}

@@ -1,0 +1,30 @@
+package com.class15;
+
+import java.util.Scanner;
+
+public class StringManupTask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan=new Scanner(System.in);
+System.out.println("Please enter browser name");
+String browser=scan.nextLine();
+switch(browser.toLowerCase()) {
+
+
+
+case "firefox":
+	System.out.println("Execution be performed on " +browser);
+	break;
+case "ie":
+	System.out.println("Excution be performed on " +browser);
+case "chrome":
+	System.out.println("Executon be performed on " +browser);
+case "safari":
+	System.out.println("execution be performed on " +browser);
+	default:
+		System.out.println("Please enter valid browser");
+}
+	}
+
+}

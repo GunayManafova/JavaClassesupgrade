@@ -1,0 +1,19 @@
+package com.class13;
+
+public class RegularExpressions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="14234Hel4567lo78899";
+System.out.println(str.replaceAll("[0-9]", ""));
+System.out.println(str.replaceAll("[a-zA-Z]", ""));
+String str2="Hi$%#How%$#@567889";
+System.out.println(str2.replaceAll("[^a-zA-Z0-9]",""));
+System.out.println("----------");
+System.out.println(str2.replaceAll("\\w",""));
+String str1="12-22-1990";
+System.out.println(str1.replace('-', '/'));
+System.out.println(str1.replaceAll("-","/"));
+	}
+
+}

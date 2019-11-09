@@ -1,0 +1,34 @@
+package com.class15;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="hello";//string literal 
+//second way  using new keyword
+String str1=new String("Hello");
+System.out.println(str);
+System.out.println(str1);
+//1.find the number of characters inside a string 
+//.length
+int length=str.length();
+System.out.println(length);
+//case conversion methods
+str=str.toLowerCase().toUpperCase();//HELLO
+System.out.println(str);
+//VERIFY if the string is Empty
+String myString="";
+boolean isEmpty=myString.isEmpty();
+System.out.println(isEmpty);
+String myString1=null;//no value at all 
+//System.out.println(myString1.isEmpty());
+//how to verify existence of characters in the String
+String a="Good evening students";
+boolean exist=a.contains("students");
+System.out.println(exist);
+System.out.println(a.startsWith("Good"));
+System.out.println(a.endsWith("student"));
+
+	}
+
+}
